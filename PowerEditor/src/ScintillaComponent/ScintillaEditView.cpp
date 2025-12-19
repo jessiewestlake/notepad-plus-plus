@@ -177,6 +177,7 @@ LanguageNameInfo ScintillaEditView::_langNameInfoArray[L_EXTERNAL + 1] = {
 	{L"toml",             L"TOML",                   L"Tom's Obvious Minimal Language file",               L_TOML,            "toml"},
 	{L"sas",              L"SAS",                    L"SAS file",                                          L_SAS,             "sas"},
 	{L"errorlist",        L"ErrorList",              L"ErrorList",                                         L_ERRORLIST,       "errorlist"},
+	{L"markdown",         L"Markdown",               L"Markdown file",                                     L_MARKDOWN,        "markdown"},
 	{L"ext",              L"External",               L"External",                                          L_EXTERNAL,        "null"}
 };
 
@@ -2245,6 +2246,9 @@ void ScintillaEditView::defineDocType(LangType typeDoc)
 
 		case L_SAS:
 			setSasLexer(); break;
+
+		case L_MARKDOWN:
+			setMarkdownLexer(); break;
 
 		case L_ERRORLIST:
 			setErrorListLexer(); break;
