@@ -3809,6 +3809,7 @@ void Notepad_plus::command(int id)
 		case IDM_LANG_RAKU:
 		case IDM_LANG_TOML:
 		case IDM_LANG_SAS:
+		case IDM_LANG_MARKDOWN:
 		case IDM_LANG_ERRORLIST:
 		case IDM_LANG_USER :
 		{

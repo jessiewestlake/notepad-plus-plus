@@ -684,6 +684,30 @@ Installation : Copy this file to "%APPDATA%\Notepad++\themes" and in a portable 
             <WordsStyle name="TARGET" styleID="5" fgColor="C7C7C7" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="IDEOL" styleID="9" fgColor="FF5757" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
+        <LexerType name="markdown" desc="Markdown" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="C7C7C7" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="LINE BEGIN" styleID="1" fgColor="C7C7C7" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRONG1" styleID="2" fgColor="C7C7C7" bgColor="2E2E2E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="STRONG2" styleID="3" fgColor="C7C7C7" bgColor="2E2E2E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="EM1" styleID="4" fgColor="C7C7C7" bgColor="2E2E2E" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="EM2" styleID="5" fgColor="C7C7C7" bgColor="2E2E2E" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="HEADER1" styleID="6" fgColor="5090FF" bgColor="2E2E2E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER2" styleID="7" fgColor="5090FF" bgColor="2E2E2E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER3" styleID="8" fgColor="5090FF" bgColor="2E2E2E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER4" styleID="9" fgColor="5090FF" bgColor="2E2E2E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER5" styleID="10" fgColor="5090FF" bgColor="2E2E2E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER6" styleID="11" fgColor="5090FF" bgColor="2E2E2E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="PRECHAR" styleID="12" fgColor="C08040" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ULIST ITEM" styleID="13" fgColor="C04040" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OLIST ITEM" styleID="14" fgColor="C04040" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="BLOCKQUOTE" styleID="15" fgColor="40C040" bgColor="2E2E2E" fontName="" fontStyle="2" fontSize="" />
+            <WordsStyle name="STRIKEOUT" styleID="16" fgColor="808080" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="HRULE" styleID="17" fgColor="C0C0C0" bgColor="2E2E2E" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="LINK" styleID="18" fgColor="5090FF" bgColor="2E2E2E" fontName="" fontStyle="4" fontSize="" />
+            <WordsStyle name="CODE" styleID="19" fgColor="C08040" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CODE2" styleID="20" fgColor="C08040" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CODEBK" styleID="21" fgColor="C08040" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
+        </LexerType>
         <LexerType name="matlab" desc="Matlab" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="C7C7C7" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="666666" bgColor="2E2E2E" fontName="" fontStyle="0" fontSize="" />

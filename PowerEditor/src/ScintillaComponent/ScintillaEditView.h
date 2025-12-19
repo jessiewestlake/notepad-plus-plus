@@ -1045,6 +1045,10 @@ protected:
 		setLexer(L_SAS, LIST_0 | LIST_1 | LIST_2 | LIST_3);
 	}
 
+	void setMarkdownLexer() {
+		setLexer(L_MARKDOWN, LIST_NONE);
+	}
+
 	void setErrorListLexer() {
 		setLexer(L_ERRORLIST, LIST_NONE);
 		bool doShowEscapeChars = isShownCcUniEol();	// decide based on the ControlCharacter+UnicodeEOL flag

@@ -348,6 +348,7 @@
             <Keywords name="substyle4"></Keywords>
         </Language>
         <Language name="makefile" ext="mak mk" commentLine="#"/>
+        <Language name="markdown" ext="md markdown" commentLine="" commentStart="" commentEnd="" />
         <Language name="matlab" ext="m" commentLine="%" commentStart="" commentEnd="">
             <Keywords name="instre1">break case catch classdef continue else elseif end for function global if otherwise parfor persistent return switch try while</Keywords>
         </Language>
